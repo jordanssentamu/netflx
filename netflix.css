@@ -1,0 +1,50 @@
+.container,
+.item1,
+.item2 {
+  display: flex;
+}
+
+.container {
+  background-color: #1a1a1a;
+  color: white;
+  gap: 300px;
+}
+.notify,
+.search,
+.down {
+  width: 26px;
+  height: 26px;
+}
+
+.item1,
+.item2 {
+  gap: 15px;
+}
+
+.net {
+  color: red;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+
+.message {
+  background-color: #4da6ff;
+  background-image: linear-gradient(#4da6ff, #e6f2ff);
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+}
+
+.kid {
+  padding-top: 5px;
+}
